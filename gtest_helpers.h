@@ -39,7 +39,7 @@
                                                     prerequisite_functions, \
                                                     sizeof(prerequisite_functions)/sizeof(void *));
 
-
+#define TEST_NAME ::testing::UnitTest::GetInstance()->current_test_info()->name()
 /*******************************************************************************
 * Data
 *******************************************************************************/
