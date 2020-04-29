@@ -31,6 +31,10 @@
 
 #define TEST_NAME ::testing::UnitTest::GetInstance()->current_test_info()->name()
 
+// A simple todo to add anytime you can't immediately think how to verify something
+// automatically
+#define TODO_VERIFY ASSERT_FALSE("Needs manual verification")
+
 /*******************************************************************************
 * Data
 *******************************************************************************/
